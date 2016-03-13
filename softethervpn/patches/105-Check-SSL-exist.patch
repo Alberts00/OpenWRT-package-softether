@@ -1,0 +1,14 @@
+diff --git a/src/Mayaqua/Network.c b/src/Mayaqua/Network.c
+index d0df901..42a813d 100644
+--- a/src/Mayaqua/Network.c
++++ b/src/Mayaqua/Network.c
+@@ -12983,7 +12983,9 @@ bool StartSSLEx(SOCK *sock, X *x, K *priv, bool client_tls, UINT ssl_timeout, ch
+ 		{
+ 			if (client_tls == false)
+ 			{
++#ifndef OPENSSL_NO_SSL3_METHOD
+ 				SSL_CTX_set_ssl_version(ssl_ctx, SSLv3_method());
++#endif
+ 			}
+ 			else
+ 			{
