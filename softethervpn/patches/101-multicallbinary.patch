@@ -7,7 +7,7 @@ index 6c3962a..25e0f3e 100644
  default:	build
  
 -build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver bin/vpnclient/vpnclient bin/vpnbridge/vpnbridge bin/vpncmd/vpncmd
-+build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver
++build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver
  
  # Mayaqua Kernel Code
  tmp/objs/Mayaqua/Cfg.o: src/Mayaqua/Cfg.c $(HEADERS_MAYAQUA)
@@ -113,7 +113,7 @@ index 1bc7873..cba3f21 100644
  default:	build
  
 -build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver bin/vpnclient/vpnclient bin/vpnbridge/vpnbridge bin/vpncmd/vpncmd
-+build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver
++build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver
  
  # Mayaqua Kernel Code
  tmp/objs/Mayaqua/Cfg.o: src/Mayaqua/Cfg.c $(HEADERS_MAYAQUA)
@@ -325,7 +325,7 @@ index dcb73f8..8748b77 100644
  default:	build
  
 -build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver bin/vpnclient/vpnclient bin/vpnbridge/vpnbridge bin/vpncmd/vpncmd
-+build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver
++build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver
  
  # Mayaqua Kernel Code
  tmp/objs/Mayaqua/Cfg.o: src/Mayaqua/Cfg.c $(HEADERS_MAYAQUA)
@@ -431,7 +431,7 @@ index caa2d07..2567bdf 100644
  default:	build
  
 -build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver bin/vpnclient/vpnclient bin/vpnbridge/vpnbridge bin/vpncmd/vpncmd
-+build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver
++build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver
  
  # Mayaqua Kernel Code
  tmp/objs/Mayaqua/Cfg.o: src/Mayaqua/Cfg.c $(HEADERS_MAYAQUA)
@@ -537,7 +537,7 @@ index 3da4862..c06d55e 100644
  default:	build
  
 -build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver bin/vpnclient/vpnclient bin/vpnbridge/vpnbridge bin/vpncmd/vpncmd
-+build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver
++build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver
  
  # Mayaqua Kernel Code
  tmp/objs/Mayaqua/Cfg.o: src/Mayaqua/Cfg.c $(HEADERS_MAYAQUA)
@@ -643,7 +643,7 @@ index 66d7398..ba73c53 100644
  default:	build
  
 -build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver bin/vpnclient/vpnclient bin/vpnbridge/vpnbridge bin/vpncmd/vpncmd
-+build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver
++build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver
  
  # Mayaqua Kernel Code
  tmp/objs/Mayaqua/Cfg.o: src/Mayaqua/Cfg.c $(HEADERS_MAYAQUA)
@@ -749,7 +749,7 @@ index ab8ad16..7c43ed8 100644
  default:	build
  
 -build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver bin/vpnclient/vpnclient bin/vpnbridge/vpnbridge bin/vpncmd/vpncmd
-+build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver
++build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver
  
  # Mayaqua Kernel Code
  tmp/objs/Mayaqua/Cfg.o: src/Mayaqua/Cfg.c $(HEADERS_MAYAQUA)
@@ -855,7 +855,7 @@ index 1e36692..183685c 100644
  default:	build
  
 -build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver bin/vpnclient/vpnclient bin/vpnbridge/vpnbridge bin/vpncmd/vpncmd
-+build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver
++build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver
  
  # Mayaqua Kernel Code
  tmp/objs/Mayaqua/Cfg.o: src/Mayaqua/Cfg.c $(HEADERS_MAYAQUA)
@@ -961,7 +961,7 @@ index 7e33304..2ada729 100644
  default:	build
  
 -build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver bin/vpnclient/vpnclient bin/vpnbridge/vpnbridge bin/vpncmd/vpncmd
-+build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver
++build:	$(OBJECTS_MAYAQUA) $(OBJECTS_CEDAR) bin/vpnserver/vpnserver
  
  # Mayaqua Kernel Code
  tmp/objs/Mayaqua/Cfg.o: src/Mayaqua/Cfg.c $(HEADERS_MAYAQUA)
