@@ -1211,14 +1211,15 @@ index 22b31a6..f0cdcf8 100644
  #endif	// OS_WIN32
  }
  
-@@ -169,3 +169,22 @@ int main(int argc, char *argv[])
+@@ -169,3 +169,23 @@ int main(int argc, char *argv[])
  // Developed by SoftEther VPN Project at University of Tsukuba in Japan.
  // Department of Computer Science has dozens of overly-enthusiastic geeks.
  // Join us: http://www.tsukuba.ac.jp/english/admission/
 +
 +int main(int argc, char *argv[])
 +{
-+	char *xn = basename(argv[0]);
++	char *bin_path = strdup(argv[0]);
++	char *xn = basename(bin_path);
 +	int r;
 +
 +	if(strcmp(xn,"vpnserver") == 0)
